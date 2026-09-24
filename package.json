@@ -4,7 +4,7 @@
   "description": "Projeto de portfólio desenvolvido para coletar, armazenar, analisar e visualizar estatísticas de jogadores brasileiros de futebol.",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx src/index.ts"
+    "dev": "tsx --env-file=.env src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/ToniSnts-dev/ranking-Brasil-fut/issues"
   },
